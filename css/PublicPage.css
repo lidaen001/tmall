@@ -41,33 +41,34 @@ nav.top a {
     /* 并且有左右外边距10px，但是没有上下外边距 */
 }
 
-nav.top a:hover{
+nav.top a:hover {
     color: #C40000;
     /* 当鼠标移动到超链上的时候，颜色变为天猫红 #C40000 */
-    text-decoration:none;
+    text-decoration: none;
     /* 去掉下划线 */
 }
+
 div.searchDiv {
     background-color: #C40000;
     /* 搜索框div背景色是天猫红#C40000; */
-    width: 400px;
-    /* 宽度固定400px; */
+    width: 402px;
+    /* 宽度固定400px; 引入bootstrap盒子模型变成非标准*/
     margin: 50px auto;
     /* 水平居中，并且有50px的上下外边距 */
     padding: 1px;
     /* 有1px的内边距 */
-    height: 40px;
+    height: 42px;
     /* 高度是40px； */
     display: block;
     /* 以块状元素显示，只有在以块状元素显示的时候,水平居中才有效果。 当然div默认也是块状元素显示的 */
 }
 
 div.searchDiv input {
-    width: 275px;
+    width: 277px;
     /* 宽度275px */
     border: 1px solid transparent;
     /* 边框设置成透明的，否则会有边框阴影 */
-    height: 36px;
+    height: 38px;
     /* 高度36px */
     margin: 1px;
     /* 外边距设置为1px，看上去输入框和边框之间就有很小的空隙 */
@@ -118,4 +119,24 @@ img.logo {
     /* 距离上面30px */
     z-index: -1;
     /* -1表示放在下面，免得图片挡住了输入框 */
+}
+
+div.footer {
+    margin: 0px 0px;
+    /* 无外边距 */
+    border-top-style: solid;
+    /* 上边框实线 */
+    border-top-width: 1px;
+    /* 上边框1个像素 */
+    border-top-color: #e7e7e7;
+    /* 上边框颜色 */
+}
+
+div.footer-ensure {
+    margin-top: 24px;
+    /* 上外边距 */
+    margin-bottom: 24px;
+    /* 下外边距 */
+    text-align: center;
+    /* 图片居中 */
 }
