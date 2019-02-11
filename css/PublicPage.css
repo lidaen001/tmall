@@ -140,3 +140,107 @@ div.footer-ensure {
     text-align: center;
     /* 图片居中 */
 }
+
+div.footer_desc {
+    border-top-style: solid;
+    /* 上边框实线 */
+    border-top-width: 1px;
+    /* 上边框1个像素 */
+    border-top-color: #e7e7e7;
+    /* 上边框颜色 */
+    padding-top: 30px;
+    /* 上内边距 */
+    margin: 0px 20px;
+    /* 左右外边距20px */
+}
+
+div.footer_desc div.descColumn {
+    width: 20%;
+    /* 刚好有5列，所以每列占用20% */
+    float: left;
+    /* 漂浮起来，使得这些列水平摆放 */
+    padding-left: 15px;
+    /* 左内边距15px */
+}
+
+div.footer_desc div.descColumn span.descColumnTitle {
+    color: #646464;
+    /* 颜色 */
+    font-weight: bold;
+    /* 粗体 */
+    font-size: 16px;
+    /* 文本大小16px */
+}
+
+div.footer_desc a {
+    display: block;
+    /* 超链默认是inline,会水平摆放，改成block出现换行效果 */
+    padding-top: 3px;
+    /* 3px内边距 */
+}
+div.footer{
+    margin: 0px 0px;
+    /* 无外边距 */
+    border-top-style: solid;
+    /* 上边框实线 */
+    border-top-width: 1px;
+    /* 上边框1个像素 */
+    border-top-color: #e7e7e7;
+    /* 上边框颜色 */
+    }
+    
+    div.copyright{
+    background-color: black;
+    /* 背景色变为黑色 */
+    border-top-style: solid;
+    /* 上边框实线 */
+    border-top-width: 2px;
+    /* 上边框2个像素 */
+    border-top-color: #C40000;
+    /* 上边框天猫红 */
+    }
+   
+    div.copyright span.slash{
+    color: white;
+    /* 白色 */
+    }
+   
+    div.footer div.copyright div.white_link a{
+    color: white;
+    /* 白色 */
+    padding: 0px 5px;
+    /* 水平内边距5px */
+    }
+   
+    div.footer div.copyright div.white_link{
+    padding: 10px 0px;
+    /* 上下内边距10px */
+    margin-left: 10px;
+    /* 左外边距10px */
+    }
+  
+    div.license{
+    margin-left: 10px;
+    /* 做外边距10px */
+    padding-bottom: 30px;
+    /* 下内边距30px */
+    }
+   
+    div.license span{
+    color: #A4A4A4;
+    /* 颜色#A4A4A4; */
+    }
+   
+    div.license div.copyRightYear{
+    margin: 10px 0px;
+    /* 上下外边距10px */
+    color: #686868;
+    /* 颜色#686868; */
+    }
+    
+    img.cateye{
+    margin-left: 20px;
+    /* 左外边距20px */
+    }
+    
+  
